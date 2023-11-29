@@ -7,7 +7,7 @@ Code for methods in the paper: AutoDCM A Novel Framework for Automatic Relation 
 
 
 
-## Data
+## Datasets
 1. ***CPRE***
 >The CPRE dataset is located in the `data/CPRE` folder.
 
