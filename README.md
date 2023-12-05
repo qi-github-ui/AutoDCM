@@ -18,8 +18,11 @@ Code for methods in the paper: AutoDCM A Novel Framework for Automatic Relation 
 >For detailed information about the IPRE dataset, refer to the paper: [Ipre: A dataset for inter-personal relationship extraction]([link to the paper]>(https://link.springer.com/chapter/10.1007/978-3-030-32236-6_9)https://link.springer.com/chapter/10.1007/978-3-030-32236-6_9).
 >
 
-## Freebase
+## Framework
 
+1. ***Freebase***
 >Freebase plays a crucial role in the AutoDCM framework as a comprehensive knowledge base. It provides structured information that assists in aligning extracted triples with existing entities and relationships. >For more information about how Freebase is utilized within AutoDCM, refer to the section 'Constructing the Knowledge Base for Enhanced RE' in our paper.
 
 >The knowledge base used in our paper is located in the `freebase/PersonGraphDataSet-master` directory. For more details about this dataset, visit [PersonRelationKnowledgeGraph on GitHub]>(https://github.com/liuhuanyong/PersonRelationKnowledgeGraph).
+
+
