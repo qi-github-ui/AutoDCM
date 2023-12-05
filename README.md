@@ -47,7 +47,11 @@ Code for methods in the paper: AutoDCM A Novel Framework for Automatic Relation 
   * The output CSV file format includes columns for Extracted Entity1, Extracted Entity2, Extracted Non-Entity Content, and the Original Text.
 
 4. ***Heuristic Entity and Relationship Alignment***
-
+>This stage of the AutoDCM framework involves aligning the extracted entities and relationships with the known entities and relationships from the Freebase >knowledge base. It uses a combination of heuristic methods to enhance the accuracy of alignment.
+* `src/ER_Alignment.py`
+* Processes the data to align the extracted information with the Freebase dataset.
+* These similarity scores are then normalized and integrated into the alignment process to refine the matching accuracy.
+* The results are saved in a new CSV file, which includes the original extracted information along with the calculated distance and similarity scores, providing a comprehensive view of the entity and relationship alignment.
    
 5. ***Semantic Disambiguation***
    
