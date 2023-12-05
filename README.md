@@ -59,3 +59,5 @@ Code for methods in the paper: AutoDCM A Novel Framework for Automatic Relation 
 * The script then utilizes the TongYiCi CiLin for Chinese semantic analysis or a similar semantic database for other languages, to determine the semantic proximity between the extracted content and the predefined relationships.
 * Each row in the dataset is labeled as 'Positive' or 'Negative' based on the semantic similarity assessment. A 'Positive' label indicates a high degree of semantic alignment with the known relationships in the Freebase knowledge base, while a 'Negative' label suggests a lack of such alignment.
 
+## Model
+Please refer to the mentioned evaluation model in the paper for assessment.
