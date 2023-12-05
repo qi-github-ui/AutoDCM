@@ -23,6 +23,8 @@ Code for methods in the paper: AutoDCM A Novel Framework for Automatic Relation 
 1. ***Freebase***
 >Freebase plays a crucial role in the AutoDCM framework as a comprehensive knowledge base. It provides structured information that assists in aligning extracted triples with existing entities and relationships. >For more information about how Freebase is utilized within AutoDCM, refer to the section 'Constructing the Knowledge Base for Enhanced RE' in our paper.
 
->The knowledge base used in our paper is located in the `freebase/PersonGraphDataSet-master` directory. For more details about this dataset, visit [PersonRelationKnowledgeGraph on GitHub]>(https://github.com/liuhuanyong/PersonRelationKnowledgeGraph).
+>The knowledge base used in our paper is located in the `src/freebase/PersonGraphDataSet-master` directory. For more details about this dataset, visit [PersonRelationKnowledgeGraph on GitHub]>(https://github.com/liuhuanyong/PersonRelationKnowledgeGraph).
 
+2. ***Data Crawling***
+>Instructions for data crawling and preparation.
 
