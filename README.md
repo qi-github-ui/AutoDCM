@@ -28,3 +28,11 @@ Code for methods in the paper: AutoDCM A Novel Framework for Automatic Relation 
 2. ***Data Crawling***
 >Instructions for data crawling and preparation.
 
+
+3. ***LLM-Driven OpenIE***
+   
+4. ***Heuristic Entity Alignment***
+5. ***Heuristic Relationship Alignment***
+6. ***Semantic Disambiguation***
+   
+
