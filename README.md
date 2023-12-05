@@ -29,12 +29,12 @@ Code for methods in the paper: AutoDCM A Novel Framework for Automatic Relation 
 >Instructions for data crawling and preparation.
 * `src/craw_data/data_craw.py`
    * Automatically accesses multiple search engines, such as Baidu and Bing.
-   *Searches for pairs of people as provided in the `src/freebase/PersonGraphDataSet-master/person_rel_kg.txt` file.
-   *Saves the search results to the `read.txt` file.
+   * Searches for pairs of people as provided in the `src/freebase/PersonGraphDataSet-master/person_rel_kg.txt` file.
+   * Saves the search results to the `read.txt` file.
 * `src/craw_data/txt_to_csv.py`
    * Reads the read.txt file to find sentences containing specific pairs of people.
-   *Creates corresponding CSV files based on the matched pairs and their relationships.
-   *Each CSV file is named “Person1&Person2.csv” and includes people's names, relationships, and sentences.
+   * Creates corresponding CSV files based on the matched pairs and their relationships.
+   * Each CSV file is named `Person1&Person2.csv` and includes people's names, relationships, and sentences.
 
 
 3. ***LLM-Driven OpenIE***
