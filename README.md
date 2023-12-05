@@ -54,5 +54,8 @@ Code for methods in the paper: AutoDCM A Novel Framework for Automatic Relation 
 * The results are saved in a new CSV file, which includes the original extracted information along with the calculated distance and similarity scores, providing a comprehensive view of the entity and relationship alignment.
    
 5. ***Semantic Disambiguation***
-   
+>The Semantic Disambiguation stage in the AutoDCM framework is vital for determining the veracity and relevance of the extracted entity-relationship pairs. This >stage involves assessing the context and semantic content of the relationships extracted, enhancing the precision of the dataset construction.
+* `src/semantic_disambiguation.py`
+* The script then utilizes the TongYiCi CiLin for Chinese semantic analysis or a similar semantic database for other languages, to determine the semantic proximity between the extracted content and the predefined relationships.
+* Each row in the dataset is labeled as 'Positive' or 'Negative' based on the semantic similarity assessment. A 'Positive' label indicates a high degree of semantic alignment with the known relationships in the Freebase knowledge base, while a 'Negative' label suggests a lack of such alignment.
 
