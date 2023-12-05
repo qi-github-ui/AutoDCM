@@ -38,7 +38,14 @@ Code for methods in the paper: AutoDCM A Novel Framework for Automatic Relation 
 
 
 3. ***LLM-Driven OpenIE***
-   
+>This component leverages the capabilities of large language models, specifically GPT-3.5, for open information extraction (OpenIE). The process involves >extracting open triples (subject, relation, object) from texts to obtain a more granular understanding of the relationships between entities.
+* `src/openIE.py`
+  * Utilizes GPT-3.5 for extracting open triples from texts.
+  * Processes input from CSV files, where each row contains a pair of entities and a related text snippet.
+  * The script reads the input file where the first column is Entity1, the second is Entity2, the third is the relationship, and the fourth is the text.
+  * For each text entry, it extracts the open triples and stores them in a new CSV file.
+  * The output CSV file format includes columns for Extracted Entity1, Extracted Entity2, Extracted Non-Entity Content, and the Original Text.
+
 4. ***Heuristic Entity and Relationship Alignment***
 
    
